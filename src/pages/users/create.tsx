@@ -1,29 +1,16 @@
 import {
   Box,
+  Button,
+  Divider,
   Flex,
   Heading,
-  Button,
-  Icon,
-  Table,
-  Thead,
-  Tr,
-  Th,
-  Checkbox,
-  Tbody,
-  Td,
-  Text,
-  Divider,
-  VStack,
-  SimpleGrid,
   HStack,
+  SimpleGrid,
+  VStack,
 } from '@chakra-ui/react';
-
-import { RiAddLine, RiPencilFill } from 'react-icons/ri';
-
+import { Input } from '../../components/Form/Input';
 import { Header } from '../../components/Header';
 import { Sidebar } from '../../components/Sidebar';
-import { Pagination } from '../../components/Pagination';
-import { Input } from '../../components/Form/Input';
 
 export default function CreateUser() {
   return (
